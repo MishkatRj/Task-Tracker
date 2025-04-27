@@ -1,0 +1,31 @@
+.taskCard{
+    border-radius: 20px;
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.taskCard h5{
+    text-align: center;
+    margin-bottom: 20px !important;
+
+}
+.taskCard p{
+    margin-bottom: 0px !important;
+    cursor: pointer;
+    width: fit-content;
+}
+.ListTasks{
+    margin-bottom: 30px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.ListTasks > span{
+    display: flex;
+    gap: 3px;
+    position: absolute;
+    top: 5px ;
+    right: 5px;
+}

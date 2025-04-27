@@ -1,0 +1,35 @@
+.main{
+    margin: 50px 0;
+}
+
+.inner{
+    border-radius: 30px;
+    background-image: linear-gradient(90deg, #547675 0, #4db2a5);
+    height: calc(100vh - 100px);
+    overflow: hidden;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #246c62;
+    padding: 20px;
+
+}
+.header h4{
+    color: #fff;
+    margin-bottom: 0px !important;
+}
+.header > div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.task__row{
+    row-gap: 20px;
+}
+.task__wrapper{
+    padding: 20px;
+}
